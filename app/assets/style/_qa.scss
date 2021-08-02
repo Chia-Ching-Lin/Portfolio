@@ -1,0 +1,120 @@
+.row{
+    display: flex;
+    
+    
+}
+.box{
+    width: 5px;
+    height: 70px;
+    background-color: $primarycolor;
+    margin-right: 16px;
+    
+    
+}
+
+.qa{
+    padding-left: 421px;
+    padding-top: 96px;
+    font-weight: bold;
+    padding-bottom: 160px;
+    margin: 0 auto;
+    
+}
+
+.qa h1{
+    font-size: $h1fontsize;
+    align-self: center;
+    
+}
+
+.qa h3{
+    font-size: $h3fontsize;
+    padding-top: 60px;
+    padding-bottom: 36px;
+}
+
+.qamenu li{
+    font-size: $bigfontsize;
+    
+}
+
+.qamenu p{
+    font-size: $basefontsize;
+    padding-bottom: 32px;
+    padding-top: 16px;
+    font-weight: normal;
+}
+
+@media(max-width:992px){
+    .box{
+        height: 67px;
+        
+    }
+    .qa{
+        padding-left: 39px;
+        padding-top: 60px;
+        padding-bottom: 96px;
+        
+    }
+    
+
+    
+    .qa h3{
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+    
+
+    
+    .qamenu p{
+        padding-bottom: 24px;
+        padding-top: 16px;
+    }
+
+
+
+
+}
+
+@media(max-width:767px){
+    
+    .box{
+        height: 40px;  
+        margin-right: 8px;
+    }
+
+    .qa h1{
+        font-size: 28px;
+        
+    }
+
+    .qa{
+        padding-left: 15px;
+        padding-top: 36px;
+        padding-bottom: 56px;
+        
+    }
+    
+
+    
+    .qa h3{
+        font-size: 20px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    
+    .qamenu li{
+        font-size: $basefontsize;
+        font-weight: bold;
+    }
+    
+    .qamenu p{
+        font-size: 14px;
+        padding-bottom: 20px;
+        padding-top: 8px;
+    }
+    
+  
+
+
+}

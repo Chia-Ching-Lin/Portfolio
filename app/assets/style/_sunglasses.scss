@@ -1,0 +1,216 @@
+.sunglasses{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+
+.sunglasses .title ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sunglasses .title li{
+    display: flex;
+    width: 370px;
+    height: 96px;
+    border: 1px solid #DCDCDC;
+}
+
+
+
+.sunglasses .title img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.sunglasses .title p{
+    font-size: $h3fontsize;
+}
+
+
+.sunglasses .title a{
+   padding: 30px 40px 30px 40px;
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+
+}
+.sunglasses .title li a:hover{
+    
+	border-bottom: 15px solid $primarycolor;
+    width: 900px;
+}
+
+.sunglasses .banner img{
+    width: 900px;
+    height: 304px;
+    display: block;
+}
+.sunglasses .banner{
+    display: flex;
+    justify-content: center;
+}
+
+.sunglasses .content p{
+    font-size: $h3fontsize;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+.sunglasses .content span{
+    font-size: 42px;
+}
+
+.sunglasses .product{
+    font-size: 24px;
+    padding-bottom: 160px;
+}
+
+.colorbrown1{
+    width: 24px;
+    height: 24px;
+    background:  #5F3E2D;
+    border-radius: 5px;
+}
+.colorbrown2{
+    width: 24px;
+    height: 24px;
+    background:  #B75929;
+    border-radius: 5px;
+}
+.sunglasses .product {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sunglasses .product img{
+    display: block;
+}
+
+.sunglasses .product ul{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sunglasses .color{
+    width: 56px;
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+@media(max-width:992px){
+    .sunglasses .title li{
+        width: 230px;
+        height: 60px;
+        
+        
+    }
+    .sunglasses .title p{
+        font-size: 24px;
+        margin-left: 8px;
+    }
+
+
+    .sunglasses .title img{
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+    }
+
+    .sunglasses .title a{
+        padding: 10px 25px 10px 25px;
+    }
+
+    .sunglasses .title li a:hover{
+        border-bottom: 5px solid $primarycolor;
+        width: 230px;
+    }
+
+    .sunglasses .banner img{
+        width: 42%;
+        height: 200px;
+    }
+    .sunglasses .content p{
+        font-size: 24px;
+        padding-top: 56px;
+        padding-bottom: 32px;
+        line-height: 1.2;
+    }
+    .sunglasses .content span{
+        font-size: $h3fontsize;
+    }
+    .sunglasses .product {
+        width: 690px;
+        margin: 0 auto;
+    }
+
+    .sunglasses .product img{
+        width: 330PX;
+        height: 164px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .sunglasses .title li{
+        width: 115px;
+        height: 30px;
+    }
+
+    .sunglasses .title p{
+        font-size: 14px;
+        margin-left: 3px;
+    }    
+
+    .sunglasses .title img{
+        width: 15px;
+        height: 15px;
+        margin: 0 auto;
+    }
+
+
+    .sunglasses .title a{
+        padding: 1px 5px 1px 5px;
+    }
+    .sunglasses .title li a:hover{
+        border-bottom: 3px solid $primarycolor;
+        width: 115px;
+    }
+
+    .sunglasses .banner img{
+        width: 188px;
+        height: 148px;
+    }
+
+    .sunglasses .content p{
+        font-size: $basefontsize;
+        padding-top: 32px;
+        padding-bottom: 20px;
+        line-height: 1.2;
+    }
+    .sunglasses .content span{
+        font-size: $bigfontsize;
+    }
+    .sunglasses .product {
+        width: 345px;
+        margin: 0 auto;
+    }
+
+    .sunglasses .product img{
+        width: 345px;
+        height: 166px;
+    }
+
+
+
+}
